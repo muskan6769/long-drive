@@ -2,7 +2,7 @@
 .car{
 	width: 120px;
 	height: 80px;
-	margin-top:-80px;
+	margin-top:-55px;
 	position: fixed;
     margin-left: 300px;
 	}
@@ -10,16 +10,16 @@
 .car2{
     width: 120px;
     height: 80px;
-    margin-top:-80px;
-
-    margin-left: 8000px;
+    margin-top:-55px;
+    margin-left: 4000px;
+    position: absolute;
     }
 .airpl{
 width: 200px;
 height: 60px;
 margin-top: -500px;
 animation-name: plane;
-animation-duration: 90s;
+animation-duration: 110s;
 
 }
 @keyframes plane{
@@ -36,7 +36,7 @@ animation-duration: 90s;
     width:12000px;
     height:220px;
     background-size: contain;
- 
+    position: absolute;
 }
 .build3{
 	background-image: url("a2.png");
@@ -44,7 +44,7 @@ animation-duration: 90s;
     width:20000px;
     height:220px;
     background-size: contain;
-    
+    position: absolute;
 }
 .build2{
 	background-image: url("a4.png");
@@ -53,6 +53,7 @@ animation-duration: 90s;
     height:220px;
     background-size: contain;
     margin-top: 210px;
+    position: absolute;
 }  
 .road{
 
@@ -61,12 +62,16 @@ animation-duration: 90s;
     width:20000px;
     height:10px;
     background-size: contain;
+    position: absolute;
+    margin-top: 20px;
 }
 .main{
 	background-image: url("clouds.png");
 	background-repeat: repeat-x;
     background-size: contain;
     width:20000px;
+    position: relative;
+    height:400px;
     }
 body{
     background-color: lightblue;
@@ -76,7 +81,7 @@ body{
 	background-image: url("ground.jpg");
 	background-repeat: repeat-x;
     width:20000px;
-    height:80px;
+    height:110px;
     background-size: contain;
 }
 .ar{
@@ -86,7 +91,7 @@ body{
     z-index: -10;
     margin-left: 10px;
     position: fixed;
-    margin-top: 40px;
+    margin-top: 230px;
 }
 .ar2{
     
@@ -95,5 +100,5 @@ body{
     z-index: -10;
     position: fixed;
     margin-left: 1000px;
-    margin-top: 40px;
+    margin-top: 230px;
 }
