@@ -1,0 +1,99 @@
+
+.car{
+	width: 120px;
+	height: 80px;
+	margin-top:-80px;
+	position: fixed;
+    margin-left: 300px;
+	}
+
+.car2{
+    width: 120px;
+    height: 80px;
+    margin-top:-80px;
+
+    margin-left: 8000px;
+    }
+.airpl{
+width: 200px;
+height: 60px;
+margin-top: -500px;
+animation-name: plane;
+animation-duration: 90s;
+
+}
+@keyframes plane{
+    from{
+        margin-left: 1px;
+    }
+    to{
+        margin-left: 20000px;
+    }
+}
+.build4{
+	background-image: url("a3.png");
+	background-repeat: repeat-x;
+    width:12000px;
+    height:220px;
+    background-size: contain;
+ 
+}
+.build3{
+	background-image: url("a2.png");
+	background-repeat: repeat-x;
+    width:20000px;
+    height:220px;
+    background-size: contain;
+    
+}
+.build2{
+	background-image: url("a4.png");
+	background-repeat: repeat-x;
+    width:20000px;
+    height:220px;
+    background-size: contain;
+    margin-top: 210px;
+}  
+.road{
+
+	background-image: url("road.jpg");
+	background-repeat: repeat-x;
+    width:20000px;
+    height:10px;
+    background-size: contain;
+}
+.main{
+	background-image: url("clouds.png");
+	background-repeat: repeat-x;
+    background-size: contain;
+    width:20000px;
+    }
+body{
+    background-color: lightblue;
+}
+
+.ground{
+	background-image: url("ground.jpg");
+	background-repeat: repeat-x;
+    width:20000px;
+    height:80px;
+    background-size: contain;
+}
+.ar{
+ 
+    width: 100px;
+    height: 70px;
+    z-index: -10;
+    margin-left: 10px;
+    position: fixed;
+    margin-top: 40px;
+}
+.ar2{
+    
+    width: 100px;
+    height: 70px;
+    z-index: -10;
+    position: fixed;
+    margin-left: 1000px;
+    margin-top: 40px;
+}
