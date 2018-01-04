@@ -19,7 +19,8 @@ width: 200px;
 height: 60px;
 margin-top: -500px;
 animation-name: plane;
-animation-duration: 110s;
+animation-duration: 150s;
+animation-timing-function: linear;
 
 }
 @keyframes plane{
